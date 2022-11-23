@@ -1,0 +1,12 @@
+[package]
+name = "rs-stats"
+version = "0.1.0"
+authors = ["miguelsousa"]
+edition = "2018"
+
+[dependencies]
+heim = { version = "0.1.0-rc.1", features = ["memory", "cpu", "disk", "process"] }
+smol = "~0.1"
+futures = "0.3.13"
+futures-timer = "~3.0"
+prettytable-rs = "0.8.0"
